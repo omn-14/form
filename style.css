@@ -1,0 +1,98 @@
+:root {
+    --preto: #0E0B16;
+    --roxinho: #A239CA;
+    --anil: #4717F6;
+    --cinza: #E7DFDD;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vw;
+
+    background-color: var(--preto);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -.1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+
+    width: 20%;
+    height: 11%;
+    
+    padding: 2.5rem;
+    margin: auto;
+
+    border: .13rem solid var(--cinza);
+    border-radius: 10% 1%;
+
+    background: linear-gradient(45deg, var(--roxinho), var(--anil));
+
+    color: var(--cinza);
+}
+
+.label {
+    border-left: .14rem solid var(--preto);
+
+    padding: 0 .3rem;
+}
+
+.input {
+    color: var(--cinza);
+    font-size: .92rem;
+    
+    background: transparent;
+
+    height: 1.3rem;
+    
+    border: .14rem solid var(--preto);
+    
+    outline: 0;
+}
+
+.area-password {
+    display: flex;
+    
+    margin-top: 10%;
+}
+
+.password {
+    width: 80%;
+    
+    border-right: transparent;
+}
+
+.eye {
+    width: 1.3rem;
+    padding-right: 1.5%;
+
+    border-top: .14rem solid var(--preto);
+    border-bottom: .14rem solid var(--preto);
+    border-right: .14rem solid var(--preto);
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+
+    width: 40%;
+    height: 20%;
+    margin-top: 10%;
+
+    background-color: transparent;
+
+    border: .15rem solid var(--preto);
+
+    cursor: pointer;
+
+    outline: 0;
+}

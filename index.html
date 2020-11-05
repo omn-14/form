@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <form class="formulario">
+        <div class="area-name">
+            <label for="input-name" class="label">Nome </label>
+            <input id="input-name" class="input name" type="text">
+        </div>
+        <div class="area-password">
+            <label for="input-password" class="label">Senha </label>
+            <input id="input-password" class="input password" type="password">
+            <img class="eye" src="olho.png" alt="olho" title="mostrar senha" onclick="showPassword()">
+        </div>
+        <input type="submit" value="Entrar" class="button">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
